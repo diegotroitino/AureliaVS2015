@@ -158,8 +158,12 @@ ClientBin/
 *.dbproj.schemaview
 *.pfx
 *.publishsettings
+.vs/
+artifacts/
 node_modules/
+jspm_packages/
 bower_components/
+AureliaVS2015/wwwroot/
 
 # RIA/Silverlight projects
 Generated_Code/

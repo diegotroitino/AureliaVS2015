@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "name": "AureliaVS2015",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "del": "^1.1.1",
+    "gulp-babel": "^5.1.0",
+    "gulp-less": "^3.0.3",
+    "gulp-sourcemaps": "^1.5.2"
+  },
+  "jspm": {
+    "directories": {
+      "baseURL": "wwwroot",
+      "lib": "wwwroot"
+    },
+    "dependencies": {
+      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.9.5",
+      "aurelia-dependency-injection": "github:aurelia/dependency-injection@^0.4.5",
+      "aurelia-framework": "github:aurelia/framework@^0.8.8",
+      "aurelia-http-client": "github:aurelia/http-client@^0.5.5",
+      "aurelia-router": "github:aurelia/router@^0.5.8",
+      "bootstrap": "github:twbs/bootstrap@^3.3.4",
+      "font-awesome": "npm:font-awesome@^4.3.0"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.88",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.88"
+    }
+  }
+}
