@@ -163,7 +163,8 @@ artifacts/
 node_modules/
 jspm_packages/
 bower_components/
-src\AureliaVS2015\wwwroot
+wwwroot/
+src/AureliaVS2015/wwwroot
 
 # RIA/Silverlight projects
 Generated_Code/
