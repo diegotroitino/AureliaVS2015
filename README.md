@@ -1,6 +1,3 @@
-# AureliaVS2015
-Test Aurelia with visual studio 2015
-
 # Aurelia on Visual Studio 2015
 Testing Aurelia with Visual Studio 2015
 
