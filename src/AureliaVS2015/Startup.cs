@@ -6,6 +6,8 @@ using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Http;
 using Microsoft.Framework.DependencyInjection;
 using Microsoft.AspNet.Diagnostics;
+using Microsoft.AspNet.StaticFiles;
+using NuGet;
 
 namespace AureliaVS2015
 {
@@ -20,10 +22,14 @@ namespace AureliaVS2015
         {
             app.UseStaticFiles();
             app.UseErrorPage(ErrorPageOptions.ShowAll);
-            //app.Run(async (context) =>
-            //{
-            //    await context.Response.WriteAsync("Hello World!");
-            //});
+
+            //this is not the best way
+            //try something like that http://geekswithblogs.net/shaunxu/archive/2014/06/10/host-angularjs-html5mode-in-asp.net-vnext.aspx
+            app.UseFileServer(new FileServerOptions()
+            {
+                EnableDirectoryBrowsing = true                
+            });
+
         }
     }
 }
