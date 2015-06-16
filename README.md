@@ -6,4 +6,4 @@ Testing Aurelia with Visual Studio 2015
  - Compare the differences between Aurelia and Angular2 (look the similar project with Aurelia in: https://github.com/diegotroitino/Angular2VS2015);
 
 ##Credits
-This project was created based on this atricle http://www.shellmonger.com/?p=3151 and aurelia yeoman generator (https://www.npmjs.com/package/generator-aurelia - https://github.com/zewa666/generator-aurelia)
+This project was created based on this atricle http://www.shellmonger.com/?p=3151 and aurelia yeoman generator (https://www.npmjs.com/package/generator-aurelia - https://github.com/zewa666/generator-aurelia) and aurelia skeleton navigation (https://github.com/aurelia/skeleton-navigation)
